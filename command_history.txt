@@ -1,0 +1,143 @@
+    1  ls
+    2  uname
+    3  ip addr
+    4  pwd
+    5  cd
+    6  ls
+    7  pwd
+    8  cd /
+    9  ls
+   10  cd 
+   11  ls
+   12  pwd
+   13  exit
+   14  pwd
+   15  cat /etc/redhat-release
+   16  sudo yum check-update
+   17  sudo yum install apt-transport-https ca-certificates curl
+   18  sudo yum install software-properties-common -y
+   19  curl -fsSl https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   20  curl -fsSl https://download.docker.com/linux/ubuntu/gpg | sudo yum-key add -
+   21  curl -fsSl https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   22  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo rpm --import -
+   23  apt-key
+   24  exit
+   25  sudo yum install -y yum-utils
+   26  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+   27  sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   28  sudo systemctl start docker
+   29  docker
+   30  sudo yum install git
+   31  git
+   32  git config
+   33  pwd
+   34  ls
+   35  git clone https://github.com/azizswebni/DS_GL2.git
+   36  ls
+   37  cd DS_GL2/
+   38  ls
+   39  git config user.email swabni55@gmail.com
+   40  git config --global
+   41  git config --get-all
+   42  git config --global user.email "swabni55@gmail.com"
+   43  ls
+   44  nano server.js 
+   45  sudo yum install nano
+   46  nano server.js 
+   47  cat server.js 
+   48  ls
+   49  cat > test_patch.js
+   50  ls
+   51  nano test_patch.js 
+   52  rm -rf test_patch.js 
+   53  ls
+   54  cat > Dockerfile
+   55  ls
+   56  nano Dockerfile 
+   57  ls
+   58  rm -rf Dockerfile 
+   59  nano Dockerfile 
+   60  cat Dockerfile 
+   61  ls
+   62  git log
+   63  git add .
+   64  git commit -m "Q7"
+   65  git push origin
+   66  git config --global push.default simple
+   67  git push origin
+   68  git remote --help
+   69  git remote 
+   70  git remote origin https://github.com/azizswebni/DS_GL2
+   71  ls
+   72  cat server.js 
+   73  ls
+   74  nano Dockerfile 
+   75  toucj docker-compose.yml
+   76  touch docker-compose.yml
+   77  nano docker-compose.yml 
+   78  ls
+   79  git push origin
+   80  cd
+   81  cd DS_GL2/
+   82  ls
+   83  ls -la
+   84  cd client/
+   85  cat > Dockerfile
+   86  ls
+   87  cat Dockerfile 
+   88  ls
+   89  touch docker-compose.yml
+   90  nano docker-compose.yml 
+   91  docker ps
+   92  sudo docker ps
+   93  ls
+   94  cd ..
+   95  ls
+   96  git push origin
+   97  cat docker-compose.yml
+   98  docker ps
+   99  ls
+  100  sudo docker-compose up --build -d
+  101  sudo docker compose up --build -d
+  102  git remote -v
+  103  git remote set-url origin git@github.com:azizswebni/DS_GL2.git
+  104  git push origin
+  105  sudo git push origin
+  106  cd ~/.ssh
+  107  sh-keygen -o -t rsa -C "swabni55@gmail.com"
+  108  ssh-keygen -o -t rsa -C "swabni55@gmail.com"
+  109  cat id_rsa.pub
+  110  cd
+  111  ls
+  112  cd DS_GL2/
+  113  ls
+  114  git add .
+  115  git commit -m "Q7"
+  116  git push origin
+  117  history > /vagrant/command_history.txt
+  118  sudo history > /vagrant/command_history.txt
+  119  cd
+  120  sudo history > /vagrant/command_history.txt
+  121  history > /vagrant/command_history.txt
+  122  history
+  123  history | cat > command_history.txt
+  124  ls
+  125  cat command_history.txt 
+  126  ls
+  127  mv command_history.txt /DS_GL2
+  128  sudo mv command_history.txt /DS_GL2
+  129  cd DS_GL2/
+  130  ls
+  131  git add .
+  132  git commit -m "commands file"
+  133  git push origin
+  134  ls
+  135  cd
+  136  ls
+  137  cat command_history.txt 
+  138  history | cat > command_history.txt
+  139  ls
+  140  rm command_history.txt 
+  141  cd DS_GL2/
+  142  https://github.com/azizswebni/DS_GL2/tree/main
+  143  history | cat > command_history.txt
