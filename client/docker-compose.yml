@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  tasks_frontend:
+      container_name: task_frontend
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5005:80"
+    stdin_open: true
+    tty: true
+    network_mode: bridge
+
